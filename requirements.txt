@@ -1,0 +1,7 @@
+Flask==1.0.2
+#pandas
+pylint #Runs code & helps with errors in code
+#wikipedia
+#ipython
+pytest
+jupyter
