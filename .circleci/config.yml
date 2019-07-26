@@ -45,10 +45,12 @@ jobs:
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: run tests
+          name: run lint #run tests changed to run lint
           command: |
             . venv/bin/activate
-            python manage.py test
+            #python manage.py test
+            make lint
+            #Commented this one
 
       - store_artifacts:
           path: test-reports

@@ -6,3 +6,4 @@ pylint #Runs code & helps with errors in code
 #ipython
 pytest
 jupyter
+gunicorn==19.3.0 #Added after encountered error
