@@ -20,8 +20,6 @@ import logging
 # from google.cloud.speech import enums
 # from google.cloud.speech import types
 # import google.cloud.storage as gcs
-
-
 from flask import Flask
 
 app = Flask(__name__)
