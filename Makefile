@@ -1,11 +1,15 @@
 lint:
 	pylint --disable=R,C main.py
+
 install:
 	pip install -r requirements.txt
+
 #run:
-	#main.py 
+	#python main.py 
+
 #test:
     #pytest
-all:
-	install lint
+#all:
+	#make install 
+	#make lint
     #call all scripts/commands

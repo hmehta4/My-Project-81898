@@ -1,9 +1,30 @@
 Flask==1.0.2
-#python == 3.6
-#pandas
-pylint #Runs code & helps with errors in code
-#wikipedia
-#ipython
+pylint 
 pytest
 jupyter
-gunicorn==19.3.0 #Added after encountered error
+gunicorn == 19.9.0 #Added after encountered error, for production always use version specific deployment
+google-cloud
+google-cloud-speech
+requests
+google-auth-oauthlib
+google-cloud-storage
+# firebase
+# python-jwt
+# requests
+# sseclient
+# oauth2client
+# pycrypto
+# requests-toolbelt
+# google-cloud-core
+# google-cloud-firestore
+# firebase-admin
+
+
+# google-cloud-sdk-app-engine-python : Throws an error
+# google-app-engine: Throws an error
+# python == 3.6
+# pandas
+# pylint Runs code & helps with errors in code
+# wikipedia
+ipython
+#pyScss #Website compiler for css  template in python
