@@ -1,5 +1,5 @@
-# lint:
-	# pylint --disable=R,C, W1203 main.py
+lint:
+    pylint --disable=R,C, W1203 main.py
 
 install:
     # pip install --upgrade pip &&\
