@@ -3,11 +3,11 @@ pylint
 pytest
 jupyter
 gunicorn == 19.9.0 #Added after encountered error, for production always use version specific deployment
-google-cloud
-google-cloud-speech
-requests
-google-auth-oauthlib
-google-cloud-storage
+# google-cloud
+# google-cloud-speech
+# requests
+# google-auth-oauthlib
+# google-cloud-storage
 # firebase
 # python-jwt
 # requests
