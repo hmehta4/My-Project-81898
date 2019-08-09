@@ -1,9 +1,9 @@
-lint:
-	pylint --disable=R,C main.py
+# lint:
+	# pylint --disable=R,C, W1203 main.py
 
 install:
-    # pip install upgrade pip
-	pip install -r requirements.txt
+    # pip install --upgrade pip &&\
+    pip install -r requirements.txt
 
 #run:
 	#python main.py 

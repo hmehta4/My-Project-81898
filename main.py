@@ -14,8 +14,8 @@
 
 # [START gae_flex_quickstart]
 import logging
-import io
-import os
+# import io
+# import os
 # from google.cloud import speech
 # from google.cloud.speech import enums
 # from google.cloud.speech import types
